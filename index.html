@@ -348,24 +348,24 @@
   </head>
   <body>
     <div>
-      <button onclick="colorMin()">Min</button>
-      <button onclick="colorAverage()">Average</button>
-      <button onclick="colorMax()">Max</button>
-      <button onclick="colorRank()">Rank</button>
+      <button onclick="colorMin()" title="Colorize based on: the minimal time from a given 'préfecture' to reach another 'préfecture' (blue=smallest to red=largest)">Min</button>
+      <button onclick="colorAverage()" title="Colorize based on: the average time from a given 'préfecture' to reach another 'préfecture' (blue=smallest to red=largest)">Average</button>
+      <button onclick="colorMax()" title="Colorize based on: the maximal time from a given 'préfecture' to reach another 'préfecture' (blue=smallest to red=largest)">Max</button>
+      <button onclick="colorRank()" title="Colorize based on: the worst ranking of the considered 'préfecture' (blue=most-accessible-one to red=less-accessible-one)">Rank</button>
       <br />
-      <button onclick="colorClosest(5)">Closest 5</button>
-      <button onclick="colorClosest(10)">10</button>
-      <button onclick="colorClosest(20)">20</button>
+      <button onclick="colorClosest(5)" title="Colorize the 5 closest 'préfecture' from the last selected one">Closest 5</button>
+      <button onclick="colorClosest(10)" title="Colorize the 10 closest 'préfecture' from the last selected one">10</button>
+      <button onclick="colorClosest(20)" title="Colorize the 20 closest 'préfecture' from the last selected one">20</button>
       <br />
-      <button onclick="colorTime(1)">Less than 1h</button>
-      <button onclick="colorTime(2)">2h</button>
-      <button onclick="colorTime(3)">3h</button>
-      <button onclick="colorTime(4)">4h</button>
-      <button onclick="colorTime(5)">5h</button>
-      <button onclick="colorTime(6)">6h</button>
-      <button onclick="colorTime(7)">7h</button>
-      <button onclick="colorTime(8)">8h</button>
-      <button onclick="colorTime(9)">9h</button>
+      <button onclick="colorTime(1)" title="Colorize any 'préfecture' accessible from the last selected one in less than 1h">Less than 1h</button>
+      <button onclick="colorTime(2)" title="Colorize any 'préfecture' accessible from the last selected one in less than 2h">2h</button>
+      <button onclick="colorTime(3)" title="Colorize any 'préfecture' accessible from the last selected one in less than 3h">3h</button>
+      <button onclick="colorTime(4)" title="Colorize any 'préfecture' accessible from the last selected one in less than 4h">4h</button>
+      <button onclick="colorTime(5)" title="Colorize any 'préfecture' accessible from the last selected one in less than 5h">5h</button>
+      <button onclick="colorTime(6)" title="Colorize any 'préfecture' accessible from the last selected one in less than 6h">6h</button>
+      <button onclick="colorTime(7)" title="Colorize any 'préfecture' accessible from the last selected one in less than 7h">7h</button>
+      <button onclick="colorTime(8)" title="Colorize any 'préfecture' accessible from the last selected one in less than 8h">8h</button>
+      <button onclick="colorTime(9)" title="Colorize any 'préfecture' accessible from the last selected one in less than 9h">9h</button>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" width="907" height="1000">
       <g fill="#8ad" stroke="#fff" stroke-width=".5">
